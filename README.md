@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Instagram clone: https://clone-of-insta.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
