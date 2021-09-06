@@ -1,0 +1,108 @@
+.loginpart {
+  height: fit-content;
+  width: 300px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid lightgray;
+  margin-top: 6vh;
+}
+.create__account {
+  height: 40px;
+  width: 330px;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+.login__account {
+  height: 40px;
+  width: 330px;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+.signup__link {
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(9, 144, 255);
+}
+
+.in {
+  margin-bottom: 10px !important;
+  font-size: 12px !important;
+  color: gray !important;
+  background-color: rgb(236, 236, 236) !important;
+  /* padding-top: 6px !important; */
+  outline: lightgray !important;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 14px;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup__button {
+  display: block;
+  width: 75%;
+  text-transform: none !important;
+  background-color: rgb(9, 144, 255) !important;
+  color: white !important;
+  margin-top: 10px !important;
+}
+
+.login__logo {
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 25px;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+}
+
+.app__link {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.insta__link {
+  height: 40px;
+  object-fit: contain;
+}
+
+.profile__pic__upload {
+  border: 1px solid lightgray;
+  padding-top: 3px;
+  width: 220px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(236, 236, 236);
+}
+
+.upload__text {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 5px;
+}
+.upload__dp {
+  width: 220px;
+  overflow: hidden;
+}

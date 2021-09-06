@@ -1,0 +1,14 @@
+.profile__photos {
+  color: black;
+  display: flex;
+  max-width: 630px;
+  min-width: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20vh;
+}
+
+

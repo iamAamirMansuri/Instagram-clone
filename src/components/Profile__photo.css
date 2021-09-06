@@ -1,0 +1,28 @@
+.profile__photo {
+  margin-top: 10px;
+}
+.profile__photo__section {
+  height: clamp(110px, 25vw, 200px);
+  width: clamp(110px, 25vw, 200px);
+  /* height: 200px;
+  width: 200px; */
+  background-color: rgb(255, 255, 255);
+  object-fit: contain;
+  margin-left: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+.profile__photo__img {
+  height: inherit;
+  width: inherit;
+  object-fit: contain;
+  background-size: contain;
+  /* margin-top: 10px; */
+}
+
+.upload__photos {
+  padding-top: 20vh;
+  padding-bottom: 30vh;
+  font-weight: 500;
+}

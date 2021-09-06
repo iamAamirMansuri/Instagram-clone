@@ -1,0 +1,132 @@
+.header__logo {
+  object-fit: contain;
+  height: 38px;
+}
+
+.header {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+#simple-menu {
+  margin-top: 30px;
+  font-size: small !important;
+}
+.profile__link {
+  outline: none !important;
+  text-decoration: none !important;
+  color: black !important;
+}
+.profile__icon {
+  margin-right: 10px !important;
+  outline: none !important;
+  text-decoration: none !important;
+  color: black !important;
+}
+.logout__icon {
+  margin-right: 10px !important;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 340px;
+  width: 65vw;
+  max-width: 800px;
+  /* background-color: lightgreen; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.header__nav__icons {
+  display: flex;
+  justify-content: space-between;
+  outline: none !important;
+  text-decoration: none !important;
+  color: black !important;
+  width: clamp(140px, 20vw, 160px);
+}
+
+.header__icon {
+  cursor: pointer;
+  object-fit: contain !important;
+  width: 27px !important;
+  height: 27px !important;
+}
+
+.avatar {
+  /* width: 27px !important;
+  height: 27px !important; */
+  outline: none !important;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.home {
+  /* width: 27px !important;
+  object-fit: contain !important;
+
+  height: 27px !important; */
+  outline: none !important;
+  text-decoration: none !important;
+  color: black !important;
+  /* height: 25px;
+  object-fit: contain; */
+}
+.like {
+  /* width: 25px !important;
+  object-fit: contain !important;
+  height: 25px !important; */
+  outline: none !important;
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.upload__button {
+  /* width: 25px !important;
+  object-fit: contain !important;
+
+  height: 25px !important; */
+}
+
+.upload__top {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 400px !important;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.upload__caption {
+  border-width: 0px;
+  border: none;
+  outline: 0px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.upload__file {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.share__button {
+  width: 100%;
+  background-color: rgb(20, 126, 247) !important;
+  color: white !important;
+  text-transform: none !important;
+}
+
+.upload__avatar {
+  margin-left: 20px;
+}
